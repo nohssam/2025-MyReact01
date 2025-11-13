@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './App'; // ./App.js
 import reportWebVitals from './reportWebVitals';
+//import Library from './pages/step01-jsx/Library';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+     <App />
+    {/* <Library /> */}
   </React.StrictMode>
 );
 
