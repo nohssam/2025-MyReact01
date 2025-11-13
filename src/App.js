@@ -4,10 +4,11 @@ import Clock from './pages/step02-element/Clock';
 import CommentList from './pages/step03-component/CommentList';
 import List02 from './pages/step03-component/List02';
 import NumberCount from './pages/step04-state/NumberCount';
-import FilterCommandList from './pages/step05-map,filter/FilterCommandList';
-import FindCommandList from './pages/step05-map,filter/FindCommandList';
-import SomeEveryCommandList from './pages/step05-map,filter/SomeEveryCommandList';
-// import Comment from './pages/step03-component/Comment';
+import FilterCommandList from './pages/step05-map_filter_find_some_every/FilterCommandList';
+import FindCommandList from './pages/step05-map_filter_find_some_every/FindCommandList';
+import SomeEveryCommandList from './pages/step05-map_filter_find_some_every/SomeEveryCommandList';
+import ReduceCommandList from './pages/step05-map_filter_find_some_every/ReduceCommandList';
+
 
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
       <FilterCommandList /> 
       <hr />
       <FindCommandList />
+      <hr />
+      <ReduceCommandList />
       <hr />
       <SomeEveryCommandList />
       <hr />
