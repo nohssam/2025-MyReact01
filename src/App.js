@@ -12,7 +12,13 @@ import IfExam01 from './pages/step06-if/IfExam01';
 import IfExam02List from './pages/step06-if/IfExam02List';
 import TextList from './pages/step06-if/TextList';
 import Evnet01 from './pages/step07-event/Event01';
-
+import Evnet02 from './pages/step07-event/Event02';
+import Evnet03 from './pages/step07-event/Event03';
+import Evnet04 from './pages/step07-event/Event04';
+import InputExam from './pages/step08-css/InputExam';
+import CounterEx01 from './pages/step09-event2/CounterEx01';
+import CounterEx02 from './pages/step09-event2/CounterEx02';
+import CounterEx03 from './pages/step09-event2/CounterEx03';
 
 function App() {
   return (
@@ -39,6 +45,7 @@ function App() {
       <hr />
       <SomeEveryCommandList />
       <hr /> */}
+      {/* 
       <IfExam01 />
       <hr />
       <IfExam02List />
@@ -47,6 +54,19 @@ function App() {
       <hr />
       <Evnet01 />
       <hr />
+      <Evnet02 />
+      <hr />
+      <Evnet03 />
+      <hr />
+      <Evnet04 />
+      <hr />
+      <InputExam />
+      <hr />
+      <CounterEx01 />
+      */}
+      <CounterEx02 />
+      <hr />
+      <CounterEx03 />
     </div>
   );
 }
