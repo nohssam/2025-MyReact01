@@ -24,7 +24,7 @@ import Comment from "../step03-component/Comment";
 //             isAdmin : true,
 //         },
 //    ];
-//    // filter : 조건에 맞는 항목만 추출
+//    // filter : 조건에 맞는 항목만 추출 (배열로)
 //    const filtered = comments.filter(k=>k.isAdmin)
 //     return(
 //         <>

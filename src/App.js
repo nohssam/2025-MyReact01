@@ -8,12 +8,16 @@ import FilterCommandList from './pages/step05-map_filter_find_some_every/FilterC
 import FindCommandList from './pages/step05-map_filter_find_some_every/FindCommandList';
 import SomeEveryCommandList from './pages/step05-map_filter_find_some_every/SomeEveryCommandList';
 import ReduceCommandList from './pages/step05-map_filter_find_some_every/ReduceCommandList';
+import IfExam01 from './pages/step06-if/IfExam01';
+import IfExam02List from './pages/step06-if/IfExam02List';
+import TextList from './pages/step06-if/TextList';
+import Evnet01 from './pages/step07-event/Event01';
 
 
 function App() {
   return (
     <div className="App">
-      <Library />
+      {/* <Library />
       <hr />
       <Clock />
       <hr />
@@ -21,7 +25,6 @@ function App() {
       <Comment />
       <Comment />
       <Comment /> 
-      */}
       <CommentList />
       <hr />
       <List02 />
@@ -35,6 +38,14 @@ function App() {
       <ReduceCommandList />
       <hr />
       <SomeEveryCommandList />
+      <hr /> */}
+      <IfExam01 />
+      <hr />
+      <IfExam02List />
+      <hr />
+      <TextList />
+      <hr />
+      <Evnet01 />
       <hr />
     </div>
   );
