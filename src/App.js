@@ -19,6 +19,13 @@ import InputExam from './pages/step08-css/InputExam';
 import CounterEx01 from './pages/step09-event2/CounterEx01';
 import CounterEx02 from './pages/step09-event2/CounterEx02';
 import CounterEx03 from './pages/step09-event2/CounterEx03';
+import CounterEx04 from './pages/step09-event2/CounterEx04';
+import CounterEx05 from './pages/step09-event2/CounterEx05';
+import CounterEx06 from './pages/step09-event2/CounterEx06';
+import CounterEx07 from './pages/step09-event2/CounterEx07';
+import CounterEx08 from './pages/step09-event2/CounterEx08';
+import ProfileSample from './pages/step10-props/ProfileSample';
+import ProfileSample2 from './pages/step10-props/ProfileSample2';
 
 function App() {
   return (
@@ -63,10 +70,23 @@ function App() {
       <InputExam />
       <hr />
       <CounterEx01 />
-      */}
       <CounterEx02 />
       <hr />
       <CounterEx03 />
+     
+      <CounterEx04 />
+      <hr />
+      <CounterEx05 />
+       <hr />
+      <CounterEx06 />
+      <hr />
+      <CounterEx07 />
+       <hr />
+      <CounterEx08 />
+       */}
+       <ProfileSample />
+       <hr />
+        <ProfileSample2 />
     </div>
   );
 }
