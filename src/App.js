@@ -31,6 +31,14 @@ import FormSample01 from './pages/step11-form/FormSample01';
 import FormSample02 from './pages/step11-form/FormSample02';
 import EffectTest01 from './pages/step12-useEffect/EffectTest01';
 import EffectTest02 from './pages/step12-useEffect/EffectTest02';
+import UseMemoTest01 from './pages/step13-useMemo/UseMemoTest01';
+import UseMemoTest02 from './pages/step13-useMemo/UseMemoTest02';
+import UseMemoTest03 from './pages/step13-useMemo/UseMemoTest03';
+import UseCallBackTest01 from './pages/step14-useCallBack/UseCallBackTest01';
+import UseCallBackTest02 from './pages/step14-useCallBack/UseCallBackTest02';
+import UseRefTest01 from './pages/step15-useRef/UseRefTest01';
+import UseRefTest02 from './pages/step15-useRef/UseRefTest02';
+import UseRefTest03 from './pages/step15-useRef/UseRefTest03';
 
 function App() {
   return (
@@ -98,9 +106,27 @@ function App() {
       <FormSample01 />
       <hr />
       <FormSample02 />
-       <EffectTest01 />
+      <EffectTest01 />
+      <hr />
+      <EffectTest02 />
+      <hr />
+      <UseMemoTest01 />
+      <hr />
+      <UseMemoTest02 />
+      <hr />
+      <UseMemoTest03 />
+      <hr />
+     
+      <UseCallBackTest01 />
+      <hr />
+      <UseCallBackTest02 />
+      <hr />
+      <UseRefTest01 />
+      <hr />
+      <UseRefTest02 />
+      <hr />
        */}
-       <EffectTest02 />
+      <UseRefTest03 />
     </div>
   );
 }
